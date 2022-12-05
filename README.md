@@ -1,13 +1,15 @@
-# Simon Game
-The game works is that you can press any key to start and it will show you a tile that
-you have to click on.
-And as you go from level to level, the patterns get more and more complicated, and at some point you're going
-to screw up, and it's going to tell you that you’ve got it wrong and game is over,
-so you can press any key to restart the game.
+# Simon-Game
+The famous Simon Game using HTML, CSS and jQuery.
 
-<h2> Built with </h2>
+## Idea
+* To build and develop an advanced game which is easy to play using jQuery.
+* Used event handlers, animations and audio files to develop the game.
 
-- Semantic HTML5 markup
-- CSS custom properties
-- jQuery
-- Javascript
+## How to Play
+* Press any key to start
+* Check the button that is blinked (say red)
+* The player has to press that button. As soon as the player presses a button, another button get blinked (say green)
+* Now, the player needs to press on the red button and then on the green button. 
+* In the next level, if the yellow button is blinked, the player needs to press red, followed by green, followed by yellow
+* The difficulty of the game increases as the level of the game increases as the player needs to remember the sequence of the colors
+* If the player fails to remeber the sequence, the game is over.
